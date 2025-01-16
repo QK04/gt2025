@@ -25,8 +25,8 @@ for row in adj_matrix:
 
 # Step 2: Convert Graph to Adjacency List for Tree
 tree = {
-    1: [2, 3], 
-    2: [5, 6], 
+    1: [3, 2], 
+    2: [6, 5], 
     3: [4], 
     4: [8], 
     5: [7],          
